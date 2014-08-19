@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XCenter", "XCenter\XCenter.vcxproj", "{6EA7BB6B-6357-4B76-81C1-196B8B50D089}"
+	ProjectSection(ProjectDependencies) = postProject
+		{38B11A93-5052-4C40-9524-565AC7AEB5EA} = {38B11A93-5052-4C40-9524-565AC7AEB5EA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XLib", "XLib\XLib.vcxproj", "{38B11A93-5052-4C40-9524-565AC7AEB5EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EA7BB6B-6357-4B76-81C1-196B8B50D089}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6EA7BB6B-6357-4B76-81C1-196B8B50D089}.Debug|Win32.Build.0 = Debug|Win32
+		{6EA7BB6B-6357-4B76-81C1-196B8B50D089}.Release|Win32.ActiveCfg = Release|Win32
+		{6EA7BB6B-6357-4B76-81C1-196B8B50D089}.Release|Win32.Build.0 = Release|Win32
+		{38B11A93-5052-4C40-9524-565AC7AEB5EA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{38B11A93-5052-4C40-9524-565AC7AEB5EA}.Debug|Win32.Build.0 = Debug|Win32
+		{38B11A93-5052-4C40-9524-565AC7AEB5EA}.Release|Win32.ActiveCfg = Release|Win32
+		{38B11A93-5052-4C40-9524-565AC7AEB5EA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
